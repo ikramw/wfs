@@ -8,9 +8,9 @@
 	],
 	"sourcesContent": [
 		"@import 'nav';",
-		"@import 'variabler';\r\n\r\n\r\n.header{\r\n    display: flex;\r\n    justify-content: space-around; \r\n    align-items: flex-start;\r\n    height:6em;\r\n    background-color: $bg_nav_footer;\r\n    margin-bottom: .3em;\r\n    &-hamburger{\r\n        align-self: flex-end;\r\n    }\r\n}\r\nli{\r\n    background-color: $bg_li;\r\n    width: 100vw;\r\n    padding:1em;\r\n    margin-bottom: .3em; \r\n    margin-left:-2em;\r\n    text-align: center;\r\n    a{\r\n        color:white;\r\n    }\r\n}\r\np{\r\n    font-size: 1.2rem;\r\n}\r\n",
-		"$bg_nav_footer:#dbecf0;\r\n$bg_li:#0044b2;"
+		"@import 'variabler';\r\n\r\n\r\n.header{\r\n    display: flex;\r\n    justify-content: space-around; \r\n    align-items: flex-start;\r\n    height:6em;\r\n    background-color: $bg_nav_footer;\r\n    margin-bottom: $margin-bottom;\r\n    &-hamburger{\r\n        align-self: flex-end;\r\n    }\r\n}\r\nli{\r\n    background-color: $bg_li;\r\n    width: 100vw;\r\n    padding:1em;\r\n    margin-bottom: $margin-bottom; \r\n    margin-left:-2em;\r\n    text-align: center;\r\n    a{\r\n        color:white;\r\n    }\r\n}\r\np{\r\n    font-size: 1.2rem;\r\n}\r\n",
+		"$bg_nav_footer:#dbecf0;\r\n$bg_li:#0044b2;\r\n$margin-bottom:.3em;"
 	],
-	"mappings": ";ACGA,AAAA,OAAO,CAAA;EACH,OAAO,EAAE,IAAK;EACd,eAAe,EAAE,YAAa;EAC9B,WAAW,EAAE,UAAW;EACxB,MAAM,EAAC,GAAI;EACX,gBAAgB,ECRL,OAAO;EDSlB,aAAa,EAAE,IAAK;CAIvB;;;AAVD,AAAA,iBAAO,CAOQ;EACP,UAAU,EAAE,QAAS;CACxB;;;AAEL,AAAA,EAAE,CAAA;EACE,gBAAgB,ECdb,OAAO;EDeV,KAAK,EAAE,KAAM;EACb,OAAO,EAAC,GAAI;EACZ,aAAa,EAAE,IAAK;EACpB,WAAW,EAAC,IAAK;EACjB,UAAU,EAAE,MAAO;CAItB;;;AAVD,AAOI,EAPF,CAOE,CAAC,CAAA;EACG,KAAK,EAAC,KAAM;CACf;;;AAEL,AAAA,CAAC,CAAA;EACG,SAAS,EAAE,MAAO;CACrB",
+	"mappings": ";ACGA,AAAA,OAAO,CAAA;EACH,OAAO,EAAE,IAAK;EACd,eAAe,EAAE,YAAa;EAC9B,WAAW,EAAE,UAAW;EACxB,MAAM,EAAC,GAAI;EACX,gBAAgB,ECRL,OAAO;EDSlB,aAAa,ECPF,KAAI;CDWlB;;;AAVD,AAAA,iBAAO,CAOQ;EACP,UAAU,EAAE,QAAS;CACxB;;;AAEL,AAAA,EAAE,CAAA;EACE,gBAAgB,ECdb,OAAO;EDeV,KAAK,EAAE,KAAM;EACb,OAAO,EAAC,GAAI;EACZ,aAAa,EChBF,KAAI;EDiBf,WAAW,EAAC,IAAK;EACjB,UAAU,EAAE,MAAO;CAItB;;;AAVD,AAOI,EAPF,CAOE,CAAC,CAAA;EACG,KAAK,EAAC,KAAM;CACf;;;AAEL,AAAA,CAAC,CAAA;EACG,SAAS,EAAE,MAAO;CACrB",
 	"names": []
 }

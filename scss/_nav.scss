@@ -7,7 +7,7 @@
     align-items: flex-start;
     height:6em;
     background-color: $bg_nav_footer;
-    margin-bottom: .3em;
+    margin-bottom: $margin-bottom;
     &-hamburger{
         align-self: flex-end;
     }
@@ -16,7 +16,7 @@ li{
     background-color: $bg_li;
     width: 100vw;
     padding:1em;
-    margin-bottom: .3em; 
+    margin-bottom: $margin-bottom; 
     margin-left:-2em;
     text-align: center;
     a{
