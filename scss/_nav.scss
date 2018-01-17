@@ -1,29 +1,28 @@
-header{
-    background-color: #dbecf0;
-    margin-bottom: .3em;
-}
+@import 'variabler';
+
+
 .header{
     display: flex;
     justify-content: space-around; 
     align-items: flex-start;
     height:6em;
-}
-.nav ul li,a{
-    text-decoration: none;
-    color: white;
-    font-size: 1.2rem;
-    text-align: center;
+    background-color: $bg_nav_footer;
+    margin-bottom: .3em;
+    &-hamburger{
+        align-self: flex-end;
+    }
 }
 li{
-    background-color: #0044b2;
+    background-color: $bg_li;
     width: 100vw;
     padding:1em;
     margin-bottom: .3em; 
     margin-left:-2em;
+    text-align: center;
+    a{
+        color:white;
+    }
 }
 p{
     font-size: 1.2rem;
-}
-.hamburger{
-    align-self: flex-end;
 }
