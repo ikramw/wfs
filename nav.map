@@ -5,8 +5,8 @@
 		"scss/nav.scss"
 	],
 	"sourcesContent": [
-		".header{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    background-color: #dbecf0;\r\n    margin-bottom: .3em;\r\n}\r\n.nav ul li,a{\r\n    text-decoration: none;\r\n    color: white;\r\n    font-size: 1.2rem;\r\n    text-align: center;\r\n}\r\nli{\r\n    background-color: #0044b2;\r\n    width: 100vw;\r\n    padding:1em;\r\n    margin-bottom: .3em; \r\n    margin-left:-2em;\r\n}"
+		"header{\r\n    background-color: #dbecf0;\r\n    margin-bottom: .3em;\r\n}\r\n.header{\r\n    display: flex;\r\n    justify-content: space-around; \r\n    align-items: flex-start;\r\n    height:6em;\r\n}\r\n.nav ul li,a{\r\n    text-decoration: none;\r\n    color: white;\r\n    font-size: 1.2rem;\r\n    text-align: center;\r\n}\r\nli{\r\n    background-color: #0044b2;\r\n    width: 100vw;\r\n    padding:1em;\r\n    margin-bottom: .3em; \r\n    margin-left:-2em;\r\n}\r\np{\r\n    font-size: 1.2rem;\r\n}\r\n.hamburger{\r\n    align-self: flex-end;\r\n}"
 	],
-	"mappings": ";AAAA,AAAA,OAAO,CAAA;EACH,OAAO,EAAE,IAAK;EACd,eAAe,EAAE,aAAc;EAC/B,gBAAgB,EAAE,OAAQ;EAC1B,aAAa,EAAE,IAAK;CACvB;;;AACD,AAAQ,IAAJ,CAAC,EAAE,CAAC,EAAE,EAAC,AAAA,CAAC,CAAA;EACR,eAAe,EAAE,IAAK;EACtB,KAAK,EAAE,KAAM;EACb,SAAS,EAAE,MAAO;EAClB,UAAU,EAAE,MAAO;CACtB;;;AACD,AAAA,EAAE,CAAA;EACE,gBAAgB,EAAE,OAAQ;EAC1B,KAAK,EAAE,KAAM;EACb,OAAO,EAAC,GAAI;EACZ,aAAa,EAAE,IAAK;EACpB,WAAW,EAAC,IAAK;CACpB",
+	"mappings": ";AAAA,AAAA,MAAM,CAAA;EACF,gBAAgB,EAAE,OAAQ;EAC1B,aAAa,EAAE,IAAK;CACvB;;;AACD,AAAA,OAAO,CAAA;EACH,OAAO,EAAE,IAAK;EACd,eAAe,EAAE,YAAa;EAC9B,WAAW,EAAE,UAAW;EACxB,MAAM,EAAC,GAAI;CACd;;;AACD,AAAQ,IAAJ,CAAC,EAAE,CAAC,EAAE,EAAC,AAAA,CAAC,CAAA;EACR,eAAe,EAAE,IAAK;EACtB,KAAK,EAAE,KAAM;EACb,SAAS,EAAE,MAAO;EAClB,UAAU,EAAE,MAAO;CACtB;;;AACD,AAAA,EAAE,CAAA;EACE,gBAAgB,EAAE,OAAQ;EAC1B,KAAK,EAAE,KAAM;EACb,OAAO,EAAC,GAAI;EACZ,aAAa,EAAE,IAAK;EACpB,WAAW,EAAC,IAAK;CACpB;;;AACD,AAAA,CAAC,CAAA;EACG,SAAS,EAAE,MAAO;CACrB;;;AACD,AAAA,UAAU,CAAA;EACN,UAAU,EAAE,QAAS;CACxB",
 	"names": []
 }

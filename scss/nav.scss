@@ -1,8 +1,12 @@
-.header{
-    display: flex;
-    justify-content: space-between;
+header{
     background-color: #dbecf0;
     margin-bottom: .3em;
+}
+.header{
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start;
+    height:6em;
 }
 .nav ul li,a{
     text-decoration: none;
@@ -16,4 +20,10 @@ li{
     padding:1em;
     margin-bottom: .3em; 
     margin-left:-2em;
+}
+p{
+    font-size: 1.2rem;
+}
+.hamburger{
+    align-self: flex-end;
 }
