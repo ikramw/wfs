@@ -3,7 +3,7 @@
 	"file": "scss/style.css",
 	"sources": [
 		"scss/style.scss",
-		"scss/nav.scss"
+		"scss/_nav.scss"
 	],
 	"sourcesContent": [
 		"@import 'nav';",
