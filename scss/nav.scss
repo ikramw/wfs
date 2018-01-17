@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #dbecf0;
+    margin-bottom: .3em;
+}
+.nav ul li,a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+li{
+    background-color: #0044b2;
+    width: 100vw;
+    padding:1em;
+    margin-bottom: .3em; 
+    margin-left:-2em;
+}
