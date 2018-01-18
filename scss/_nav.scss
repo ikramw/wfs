@@ -36,6 +36,9 @@
         margin-bottom: $margin-bottom; 
         margin-left:-2em;
         text-align: center;
+        &:active{
+            @include bg_active_li;
+        }
         a{
             color:white;
             font-size: .8em;

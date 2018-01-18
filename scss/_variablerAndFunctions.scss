@@ -3,6 +3,10 @@ $bg_li:#0044b2;
 $margin-bottom:.3em;
 $tablet: "(min-width:818px)";
 $desktop: "(min-width: 904px)";
+@mixin bg_active_li{
+    background-color: darken($bg_li, 10%);
+}
+
 
 @mixin show{
     display:block;
@@ -15,6 +19,9 @@ $desktop: "(min-width: 904px)";
             padding: .5em 1.2em;
             margin-left: .1em; 
             display: inline-block; 
+            &:active{
+                @include bg_active_li;
+            }
             a{
                 color:white;
                 font-size:1.2em;
