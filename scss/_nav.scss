@@ -1,4 +1,4 @@
-@import 'variabler';
+@import 'variablerAndFunctions';
 
 
 .header{
@@ -15,14 +15,19 @@
             cursor: pointer;
         }
     }
+    .talande{
+        display: flex;
+        justify-content: space-between;    
+        p{
+            padding: .2em;
+            font-size: 1.2em;
+        }
+    }
 }
 .displayNone{
     display: none;
 }
-.displayBlock{
-    display: block;
-}
-.nav-res {
+.nav-res{
     display: block;
     li{
         background-color: $bg_li;
@@ -37,56 +42,25 @@
         }
     }
 }
-.nav-des{
-    display:block;
-    align-self: flex-end;
-    display:block; 
-    ul{
-        margin-bottom: 0;      
-        li{
-            background-color: $bg_li;
-            padding: .5em 1.2em;
-            margin-left: .1em; 
-            display: inline-block; 
-            a{
-                color:white;
-                font-size:1.2em;
-            }
-        }
+.header{
+    @include tablet{
+        height: 7em;
+    }
+    &-hamburger{
+        @include tablet{
+            height: 6em;
+            width: 6em;
+        }  
     }
 }
-.talande{
-    display: flex;
-    justify-content: space-between;
-}
-p{
-    padding: .2em;
-    font-size: 1.2em;
-}
-.header-hamburger{
-    @media #{$tablet}{    
-        width:  6em;
-        height: 6em ;      
-     }
-}
-.header{
-    @media #{$tablet}{    
-        height: 7em ;      
-     }
-}
-.nav-res{
-    @media #{$desktop}{           
-       width: 10em ;  
-       height : 6em;    
-     }
-}
-#hamburger{
-    @media #{$desktop}{           
+#hamburger, #nav-res{
+    @include desktop{           
         display:none;  
       }
 }
-#nav-des{
-    @media #{$desktop}{           
-        display:block;  
-      }
+#nav-des {
+    @include desktop {
+        @include show;
+    }
 }
+   
