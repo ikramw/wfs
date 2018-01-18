@@ -10,16 +10,27 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="script\script.js" defer></script>
     <title> Webb För Skolor</title>
 </head>
 <body>
     <header class="header">
-        <div class="logo"> <a href="#"><img src="image\wfs.png" alt="logan till hemsidan" ></a></div>
-        <img src="image\talande.png" alt="Ikonen till talande webb" height="32" width="32">
-        <p>Talande webb</p>        
-        <img id="hamburger" class="header-hamburger" src="image\icon.png" alt="">
+        <div class="logo"> <a href="#"><img class="imglogo" src="image\wfs.png" alt="logan till hemsidan" ></a></div>
+        <div class="talande">
+            <img class="talande-webb" src="image\talande.png" alt="Ikonen till talande webb" height="32" width="32">
+            <p>Talande webb</p>
+        </div>   
+        <nav class="displayNone" id="nav-des">
+            <ul>
+                <li><a class="smooth-scroll" href="#Tjänster">Tjänster</a></li>
+                <li><a class="smooth-scroll" href="#Kunder">Kunder</a></li>
+                <li><a class="smooth-scroll" href="#Om_oss">Om oss</a></li>
+                <li><a class="smooth-scroll" href="#Kontakt">Kontakt</a></li>
+            </ul>
+        </nav>    
+        <img id="hamburger" class="header-hamburger" src="image\icon.png" alt="Ikonen till hamburger-meny">
     </header>
-    <nav class="nav">
+    <nav class="displayNone" id="nav-res">
         <ul>
             <li><a class="smooth-scroll" href="#Tjänster">Tjänster</a></li>
             <li><a class="smooth-scroll" href="#Kunder">Kunder</a></li>
