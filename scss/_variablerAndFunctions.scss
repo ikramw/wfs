@@ -6,8 +6,6 @@ $desktop: "(min-width: 904px)";
 @mixin bg_active_li{
     background-color: darken($bg_li, 10%);
 }
-
-
 @mixin show{
     display:block;
     align-self: flex-end;
