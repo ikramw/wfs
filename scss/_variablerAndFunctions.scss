@@ -3,6 +3,14 @@ $bg_li:#0044b2;
 $margin-bottom:.3em;
 $tablet: "(min-width:818px)";
 $desktop: "(min-width: 904px)";
+
+$mobile-width: 375px;
+$tablet-mediaq: "(min-width: 756px)";
+$tablet-width: 756px;
+
+
+
+
 @mixin bg_active_li{
     background-color: darken($bg_li, 10%);
 }

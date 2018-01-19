@@ -1,0 +1,20 @@
+body{
+    @media #{$tablet-mediaq}{
+        width:$tablet-width;
+    }
+}
+
+
+.mid-container{
+    @media #{$tablet-mediaq}{
+        width: $tablet-width;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        &-kunderimage{
+            width: 120px;
+            padding-top: 5px;
+            
+        }   
+    }
+}
