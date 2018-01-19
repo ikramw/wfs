@@ -1,0 +1,18 @@
+
+.mid-container{
+    @media #{$tablet-kunder-mediaq}{
+        margin:auto;
+        width:200 px;
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        
+    }
+    .kunderimage{
+        width:100px;
+
+    }
+        
+    
+}
