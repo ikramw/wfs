@@ -1,0 +1,149 @@
+@media(max-width: 1700px){   
+    .build1{
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .om1{
+        
+        font-size: 30px;
+        padding-left: 10px;
+        font-weight: bold;
+        padding-top: 20px;
+        position: absolute;
+    }
+    
+    .om2{
+        
+        font-size: 25px;
+        padding-left: 10px;
+        padding-right: 11px;
+        padding-top: 70px;
+        position: absolute;
+        text-align: justify;
+    }
+    
+}
+
+@media(max-width: 1300px){
+
+.build1{
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .om1{
+        
+        font-size: 22px;
+        padding-left: 10px;
+        font-weight: bold;
+        padding-top: 20px;
+        position: absolute;
+    }
+    
+    .om2{
+        
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 70px;
+        position: absolute;
+        text-align: justify;
+    }
+    
+}
+
+
+@media(max-width: 959px){
+    
+    .build1{
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .om1{
+        
+       font-size: 20px;
+        padding-left: 10px;
+        font-weight: bold;
+        padding-top: 5px;
+        position: absolute;
+    }
+    
+    .om2{
+        
+        font-size: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 450px;
+        position: absolute;
+        text-align: justify;
+    }
+    
+    
+}
+
+
+
+@media(max-width: 650px){
+    
+    .build1{
+        width: 650px;
+        height: 400px;
+        
+    }
+    
+    .om1{
+        
+        font-size: 12px;
+        padding-left: 30px;
+        font-weight: bold;
+        padding-top: 20px;
+        position: absolute;
+        
+    }
+    
+    .om2{
+        
+        font-size: 11px;
+        padding-top: 450px;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: absolute;
+    } 
+    
+}
+
+
+@media(max-width: 400px){
+    
+    .build1{
+        width: 400px;
+        height: 400px;
+        
+    }
+    
+    .om1{
+        
+        font-size: 10px;
+        padding-left: 20px;
+        font-weight: bold;
+        padding-top: 10px;
+        position: absolute;
+        
+    }
+    
+    .om2{
+        
+        font-size: 10px;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 0px;
+        position: absolute;
+    }
+
+    
+}
