@@ -1,8 +1,3 @@
-.mid-container{
-    width:100%;
-    height: 300px;
-   
-}
 
 h2{
     padding-left: 2,5rem;
@@ -13,9 +8,29 @@ p{
     
 }
 
-.kunderimage{
-    width: 5rem;
-    height: 5rem;
-    padding-top:10px;
-    display: flex;
+
+.mid-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
+.kunderimage{
+    width: 60px;
+    height: auto;
+    padding-top: 1rem;   
+    
+}
+
+.text-kunder{
+    text-align: center;
+}
+
+.header-kunder{
+    margin-left: 2rem;
+}
+
+
