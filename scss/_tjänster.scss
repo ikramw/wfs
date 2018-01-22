@@ -1,147 +1,112 @@
-@media(max-width: 1700px){
-     .img1{
-        width: 100%;
-        height: 100%;
-    }
-    
-    .tje1{
-        font-size: 30px;
-        padding-left: 500px;
-        font-weight: bold;
-        padding-top: 120px;
-        position: absolute;
-        
-    }
-    
-    .tje2{
-        font-size: 25px;
-        padding-left: 500px;
-        padding-top: 200px;
-        padding-right: 80px;
-        position: absolute;
-        text-align: justify;
-        
-    }
-    
+@import "variablerAndFunctions";
+
+$blue: blue;
+$size1: 1em;
+$mobileresw: 25em;
+$mobileresh: 18.75em;
+$font-size-mob: 0.625em;
+$font-size-desk: 1em;
+$position: absolute;
+
+$tablet2: "(min-width: 768px) and (max-width: 1024px)";
+
+.img1 {
+  width: 100%;
+  height: 100%;
+}
+
+.tje1 {
+  font-size: 0.65em;
+  font-weight: bold;
+  padding: 1em 3em 0 12em;
+  position: $position;
+}
+
+.tje2 {
+  font-size: 0.65em;
+  padding: 3.5em 1em 0 12em;
+  position: $position;
+}
+
+@include mobile1 {
+  .img1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .tje1 {
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 1em 0 0 12em;
+    position: $position;
+  }
+
+  .tje2 {
+    font-size: 0.7em;
+    padding: 3.5em 0.3em 0 13em;
+    position: $position;
+  }
 }
 
 
-@media(max-width: 1300px){
-     .img1{
-        width: 100%;
-        height: 100%;
-    }
-    
-    .tje1{
-        font-size: 22px;
-        padding-left: 380px;
-        font-weight: bold;
-        padding-top: 80px;
-        position: absolute;
-        
-    }
-    
-    .tje2{
-        font-size: 18px;
-        padding-left: 380px;
-        padding-top: 140px;
-        padding-right: 80px;
-        position: absolute;
-        text-align: justify;
-        
-    }
-    
+@include mobile2 {
+  .img1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .tje1 {
+    font-size: 0.75em;
+    font-weight: bold;
+    padding: 1em 0 0 19em;
+    position: $position;
+  }
+
+  .tje2 {
+    font-size: 0.7em;
+    padding: 3.5em 5em 0 20.5em;
+    position: $position;
+  }
 }
 
 
-@media(max-width: 959px){
-   
-    .img1{
-        width: 100%;
-        height: 500px;
-    }
-    
-    .tje1{
-        font-size: 20px;
-        padding-left: 276px;
-        font-weight: bold;
-        padding-top: 30px;
-        position: absolute;
-        
-    }
-    
-    .tje2{
-        font-size: 15px;
-        padding-left: 276px;
-        padding-top: 70px;
-        padding-right: 50px;
-        position: absolute;
-        text-align: justify;
-        
-    }
+@include tablet {
+  .img1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .tje1 {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 1.5em 3em 0 20.5em;
+    position: $position;
+  }
+
+  .tje2 {
+    font-size: 1em;
+    padding: 4em 8em 0 23em;
+    position: $position;
+  }
 }
 
 
+@include desktop {
+  .img1 {
+    width: 100%;
+    height: 100%;
+  }
 
-@media(max-width: 650px){
+  .tje1 {
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 3em 0 0 24.5em;
+    position: $position;
+  }
 
-    .img1{
-        width: 650px;
-        height: 330px;
-    }
-    
-    .tje1{
-        font-size: 12px;
-        padding-left: 190px;
-        font-weight: bold;
-        padding-top: 5px;
-        position: absolute;
-    }
-    
-    .tje2{
-        font-size: 11px;
-        padding-left: 190px;
-        padding-top: 30px;
-        padding-right: 5px;
-        position: absolute;
-    }
+  .tje2 {
+    font-size: 1em;
+    padding: 6em 5em 0 27em;
+    position: $position;
+  }
 }
-
-
-
-
-
-
-@media(max-width: 400px){
-    
-    .img1{
-        width: 400px;
-        height: 295px;
-    }
-    
-    .tje1{
-        font-size: 10px;
-        padding-left: 130px;
-        font-weight: bold;
-        padding-top: 10px;
-        position:absolute;
-    }
-    
-    .tje2{
-        font-size: 10px;
-        padding-left: 130px;
-        padding-top: 40px;
-        padding-right: 10px;
-        position:absolute;
-    }
-}
-
-
-
-
-
-
-
-
-
-
