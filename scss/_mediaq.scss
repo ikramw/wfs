@@ -3,16 +3,23 @@
     @media #{$tablet-kunder-mediaq}{
         margin:auto;
         width:200 px;
-        display:flex;
-        flex-direction:row;
-        flex-wrap:wrap;
-        justify-content: space-around;
-        
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-gap: 2rem;
     }
     .kunderimage{
         width:100px;
+        padding-bottom: 10px;
 
     }
-        
+
+   
     
+}
+
+
+.mid-container{
+    @media #{$desktop-kunder-mediaq}{
+        grid-gap: 6rem;
+    }
 }
