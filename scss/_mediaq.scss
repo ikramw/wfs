@@ -29,7 +29,9 @@
 }
 .mid-container{
     @media #{$desktop-kunder-mediaq}{
+        margin-left: 20em;
         grid-gap: 6rem;
+        align-content: center;
     }
 }
 //mediaq for kontakt
