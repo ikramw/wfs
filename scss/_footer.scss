@@ -5,11 +5,22 @@ footer{
     grid-template-columns: auto auto auto;
     grid-gap: .1em;
     background-color: $bg_nav_footer;
-    font-size: .9em;
-    height: 10em;
-    padding: 1em;
+    font-size: .8em;
+    
+    padding: 2em;
+    p{
+        margin-right: 2em;
+        float: left;
+    }
     img{
+        float: right;
         height:4em;
         width: 4em;
     }
+    .clearfix{
+        clear: both;
+    }
+}
+section{
+    height:100vh;
 }

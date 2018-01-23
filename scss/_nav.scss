@@ -9,7 +9,12 @@
     width: 100%;
     background-color: $bg_nav_footer;
     margin-bottom: $margin-bottom;
+    .logo{
+        float:left;
+    }
     &-hamburger{
+        float:right;
+        margin-right: 1em;
         align-self: flex-end;
         &:hover{
             cursor: pointer;
@@ -17,7 +22,11 @@
     }
     .talande{
         display: flex;
-        justify-content: space-between;    
+        margin-left:1em;
+        justify-content: space-between; 
+        .talande-webb{
+            float:left;
+        }  
         p{
             padding: .2em;
             font-size: 1.2em;
@@ -36,12 +45,14 @@
         margin-bottom: $margin-bottom; 
         margin-left:-2em;
         text-align: center;
+        list-style-type: none;
         &:active{
             @include bg_active_li;
         }
         a{
             color:white;
             font-size: .8em;
+            text-decoration: none;
         }
     }
 }
@@ -49,12 +60,7 @@
     @include tablet{
         height: 7em;
     }
-    &-hamburger{
-        @include tablet{
-            height: 6em;
-            width: 6em;
-        }  
-    }
+   
 }
 #hamburger, #nav-res{
     @include desktop{           
