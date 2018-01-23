@@ -1,149 +1,115 @@
-@media(max-width: 1700px){   
-    .build1{
-        width: 100%;
-        height: 100%;
-        
-    }
-    
-    .om1{
-        
-        font-size: 30px;
-        padding-left: 10px;
-        font-weight: bold;
-        padding-top: 20px;
-        position: absolute;
-    }
-    
-    .om2{
-        
-        font-size: 25px;
-        padding-left: 10px;
-        padding-right: 11px;
-        padding-top: 70px;
-        position: absolute;
-        text-align: justify;
-    }
-    
+@import "variablerAndFunctions";
+
+.build1 {
+  width: 100%;
+  height: 550px;
 }
 
-@media(max-width: 1300px){
+.om1 {
+  font-size: 0.75em;
+  padding: 1.25em 0 0 1.6em;
+  font-weight: bold;
+  position: absolute;
+}
 
-.build1{
-        width: 100%;
-        height: 100%;
-        
-    }
-    
-    .om1{
-        
-        font-size: 22px;
-        padding-left: 10px;
-        font-weight: bold;
-        padding-top: 20px;
-        position: absolute;
-    }
-    
-    .om2{
-        
-        font-size: 18px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 850px;
-        position: absolute;
-        text-align: justify;
-    }
-    
+.om2 {
+  font-size: 0.65em;
+  padding: 4.5em 2em 0 2em;
+  position: absolute;
+}
+
+.books {
+  display: none;
+}
+
+@include tablet {
+  .build1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .om1 {
+    font-size: 1.375em;
+    padding: 5em 0 4em 5em;
+    font-weight: bold;
+    position: absolute;
+  }
+
+  .om2 {
+    font-size: 1.125em;
+    padding: 34em 8em 4em 1.6em;
+    position: absolute;
+  }
 }
 
 
-@media(max-width: 959px){
-    
-    .build1{
-        width: 100%;
-        height: 100%;
-        
+@include desktop {
+  .build1 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .om1 {
+    font-size: 1.4em;
+    padding: 5em 0 4em 5em;
+    font-weight: bold;
+    position: absolute;
+  }
+
+  .om2 {
+    font-size: 1.2em;
+    padding: 40em 16em 6em 4em;
+    position: absolute;
+
+    .books {
+      display: block;
     }
-    
-    .om1{
-        
-       font-size: 20px;
-        padding-left: 10px;
-        font-weight: bold;
-        padding-top: 5px;
-        position: absolute;
-    }
-    
-    .om2{
-        
-        font-size: 15px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 550px;
-        position: absolute;
-        text-align: justify;
-    }
-    
-    
+  }
 }
 
 
+@include desktop2 {
+  .build1 {
+    width: 100%;
+    height: 100%;
+  }
 
-@media(max-width: 650px){
-    
-    .build1{
-        width: 650px;
-        height: 400px;
-        
-    }
-    
-    .om1{
-        
-        font-size: 12px;
-        padding-left: 30px;
-        font-weight: bold;
-        padding-top: 20px;
-        position: absolute;
-        
-    }
-    
-    .om2{
-        
-        font-size: 11px;
-        padding-top: 450px;
-        padding-left: 20px;
-        padding-right: 20px;
-        position: absolute;
-    } 
-    
-}
+  .om1 {
+    font-size: 1.4em;
+    padding: 5em 0 4em 5em;
+    font-weight: bold;
+    position: absolute;
+  }
 
+  .om2 {
+    font-size: 1.2em;
+    padding: 53em 22em 6em 4em;
+    position: absolute;
+  }
 
-@media(max-width: 400px){
-    
-    .build1{
-        width: 400px;
-        height: 400px;
-        
-    }
-    
-    .om1{
-        
-        font-size: 10px;
-        padding-left: 20px;
-        font-weight: bold;
-        padding-top: 10px;
-        position: absolute;
-        
-    }
-    
-    .om2{
-        
-        font-size: 10px;
-        padding-top: 30px;
-        padding-left: 20px;
-        padding-right: 0px;
-        position: absolute;
+  .books {
+    display: block;
+    width: 12em;
+    height: 30em;
+    position: absolute;
+    left: 59em;
+    top: 58em;
+  }
+
+  @include desktop3 {
+    .books {
+      display: block;
+      width: 12em;
+      height: 30em;
+      position: absolute;
+      left: 73em;
+      top: 64em;
     }
 
-    
+    .om2 {
+      font-size: 1.25em;
+      padding: 56em 20em 6em 4em;
+      position: absolute;
+    }
+  }
 }

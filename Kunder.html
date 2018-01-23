@@ -5,19 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>WFS</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">                   
         <script src="script\script.js" defer></script>
-        <title> Webb För Skolor</title>
+        <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+        <script src="script\html5shiv.min.js"></script>
     </head>
 <body> 
     <header class="header">
-        <div class="logo"> <a href="#"><img class="imglogo" src="image\wfs.png" alt="logan till hemsidan" ></a></div>
+        <div class="logo"><a href="#"><img class="imglogo" src="image/wfs.png" alt="logan till hemsidan" ></a></div>
         <div class="talande">
-            <img class="talande-webb" src="image\talande.png" alt="Ikonen till talande webb" height="32" width="32">
+            <img class="talande-webb" src="image/talande.png" alt="Ikonen till talande webb" height="32" width="32">
             <p>Talande webb</p>
         </div>   
         <nav class="displayNone" id="nav-des">
@@ -28,7 +25,8 @@
                 <li><a class="smooth-scroll" href="Kontakt.html">Kontakt</a></li>
             </ul>
         </nav>    
-        <img id="hamburger" class="header-hamburger" src="image\icon.png" alt="Ikonen till hamburger-meny">
+       <div class="header-hamburger"> <img id="hamburger"  src="image/icon.png" alt="Ikonen till hamburger-meny">
+       </div>
     </header>
     <nav class="displayNone" id="nav-res">
         <ul>
@@ -43,15 +41,15 @@
         <p class="text-kunder">Några av företagen vi har jobbat med </p>               
         <div class="mid-container">          
             
-            <img class="kunderimage" src="image/nackademin.png" alt="bild pånackademin loga">                
+            <img class="kunderimage1" class="kunderimage" src="image/nackademin.png" alt="bild pånackademin loga">                
             <img class="kunderimage" src="image/22.gif" alt="bild på EC utbildningar loga">                
-            <img class="kunderimage" src="image/Kth_logo.png" alt="Bild på KTH loga">                 
-            <img class="kunderimage" src="image/Grundskolan_colour_RGB.png" alt="Bild på Kunskapsskolan loga">                 
+            <img class="kunderimage" src="image/Kth_logo.png" alt="Bild på KTH loga">                          
+            <img class="kunderimage1" class="kunderimage" src="image/Grundskolan_colour_RGB.png" alt="Bild på Kunskapsskolan loga">                 
             <img class="kunderimage" src="image/Stockholms_stad_logo.png" alt="Bild på stockholmsstad loga">                
-            <img class="kunderimage" src="image/berghs.png" alt="Bild på berghs ">        
-        </div>  
+            <img class="kunderimage" src="image/berghs.png" alt="Bild på berghs ">                
+        </div>          
     </section>
-
+    <div class="clearfix"></div>
     <footer>
             <p>
                 Telefon 8 477 377 67 <br>
@@ -63,6 +61,7 @@
                 171 65 Stockholm
             </address>
             <img src="image\facebook-icon.png" alt="Ikonen till facebook logon">
+            <div class="clearfix"></div>
     </footer> 
 
 </body>

@@ -3,11 +3,14 @@ $bg_li:#0044b2;
 $margin-bottom:.3em;
 $tablet: "(min-width:818px)";
 $desktop: "(min-width: 904px)";
-
-
+$desktop2: "(min-width: 1153px)";
+$mobile1: "(min-width: 422px)";
+$mobile2: "(min-width: 513px)";
 $mobile-width: 375px;
 $tablet-kunder-mediaq: "(min-width: 500px)";
+$tablet-kontakt-mediaq: "(min-width: 560px)";
 $tablet-width: 756px;
+$desktop3: "(min-width: 1375px)";
 $desktop-kunder-mediaq: "(min-width: 800px)";
 
 
@@ -23,12 +26,12 @@ $desktop-kunder-mediaq: "(min-width: 800px)";
     margin-top: 1.5em;
     display:block; 
     ul{
-        margin-bottom: 0;      
+        margin-bottom: 0;
         li{
             background-color: $bg_li;
             padding: .5em 1.2em;
-            margin-left: .1em; 
-            display: inline-block; 
+            margin-left: .1em;
+            display: inline-block;
             &:active{
                 @include bg_active_li;
             }
@@ -47,6 +50,30 @@ $desktop-kunder-mediaq: "(min-width: 800px)";
 }
 @mixin desktop {
     @media #{$desktop} {
+    @content;
+    }
+}
+
+@mixin mobile1 {
+    @media #{$mobile1} {
+    @content;
+    }
+}
+
+@mixin mobile2 {
+    @media #{$mobile2} {
+    @content;
+    }
+}
+
+@mixin desktop2 {
+    @media #{$desktop2} {
+    @content;
+    }
+}
+
+@mixin desktop3 {
+    @media #{$desktop3} {
     @content;
     }
 }
