@@ -1,34 +1,30 @@
 
 h2{
-    padding-left: 2,5rem;
+    padding-left: 2rem;
+    margin-top: 2em;
 }
-
-p{
-    margin:auto
-    
-}
-
-
 .mid-container{
+    margin: 2em;
+    padding: 2em;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-
-
+section{
+    p{
+        margin-top:2em;
+        
+    }
+}
 .kunderimage{
     width: 60px;
     height: auto;
-    padding-top: 1rem;   
-    
+    padding-top: 1rem;     
 }
-
 .text-kunder{
     text-align: center;
 }
-
 .header-kunder{
     margin-left: 2rem;
 }

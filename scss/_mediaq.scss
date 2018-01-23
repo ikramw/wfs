@@ -1,29 +1,36 @@
 //mediaq for kunder
 .mid-container{
     @media #{$tablet-kunder-mediaq}{
-        margin:auto;
-        width:200 px;
+        width: 400px;
+        margin-top:2em;
+        margin-left: 4em;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
         display: grid;
-        grid-template-columns: 100px 100px 100px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;       
+        padding:2em;
         grid-gap: 2rem;
     }
     .kunderimage{
+        @media #{$tablet-kunder-mediaq}{
         width:100px;
-        padding-bottom: 10px;
-
-    }
-
-   
-    
+        padding: 10px;
+        }
+    .kunderimage1{
+        @media #{$tablet-kunder-mediaq}{
+        float: left;
+        }
+     } 
+    }   
 }
-
-
 .mid-container{
     @media #{$desktop-kunder-mediaq}{
         grid-gap: 6rem;
     }
 }
-
 //mediaq for kontakt
 
 .containerContact{
@@ -32,13 +39,10 @@
         justify-content: space-around;
         flex-direction:row;
     }
-
     .kontakt-image{
         width: 350px;
         height: 350px;
         padding: 1rem;
         margin-left: 1rem;
         }
-
-
 }
