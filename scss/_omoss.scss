@@ -40,6 +40,10 @@
     padding: 34em 8em 4em 1.6em;
     position: absolute;
   }
+
+  footer {
+    position: relative;
+  }
 }
 
 
@@ -59,7 +63,7 @@
   .om2 {
     font-size: 1.2em;
     padding: 40em 16em 6em 4em;
-    position: absolute;
+    position: relative;
 
     .books {
       display: block;
@@ -84,7 +88,7 @@
   .om2 {
     font-size: 1.2em;
     padding: 53em 22em 6em 4em;
-    position: absolute;
+    position: relative;
   }
 
   .books {
@@ -109,7 +113,6 @@
     .om2 {
       font-size: 1.25em;
       padding: 56em 20em 6em 4em;
-      position: absolute;
     }
   }
 }
