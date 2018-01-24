@@ -14,19 +14,19 @@ h2{
 section{
     p{
         margin-top:2em;
-        
+
     }
 }
 .kunderimage{
     width: 60px;
     height: auto;
-    padding-top: 1rem;     
+    padding-top: 1rem;
 }
 .text-kunder{
     text-align: center;
+    font-size: $desktop-p-font;
+    font-family: $font-family;
 }
 .header-kunder{
     margin-left: 2rem;
 }
-
-
