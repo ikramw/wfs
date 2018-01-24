@@ -1,6 +1,6 @@
 @import 'variablerAndFunctions';
 footer{
-    bottom: 0;
+   
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: .1em;
@@ -20,7 +20,4 @@ footer{
     .clearfix{
         clear: both;
     }
-}
-section{
-    height:100vh;
 }
