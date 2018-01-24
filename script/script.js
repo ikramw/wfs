@@ -13,3 +13,6 @@ function show_menu(){
     else if(nav.className =="nav-res")
         nav.className = "displayNone";
 }
+nav.addEventListener("click",function(event){
+nav.className="displayNone";
+});

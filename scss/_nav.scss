@@ -14,11 +14,19 @@
     }
     &-hamburger{
         float:right;
-        margin-right: 1em;
-        margin-top:-1em;
+        position: fixed;
+        right:0;
+        top:0;
+        margin-right: 2em;
+        margin-top:3em;
+        opacity: 1;
         align-self: flex-end;
         &:hover{
             cursor: pointer;
+        }
+        img{
+            width:2em ;
+            height: 2em;
         }
     }
     .talande{
@@ -40,21 +48,29 @@
 }
 .nav-res{
     display: block;
-    li{
-        background-color: $bg_li;
+    position:fixed;   
+    right:0;
+    left:0;
+    ul{
         width: 100vw;
-        padding:1em;
-        margin-bottom: $margin-bottom; 
-        margin-left:-2em;
-        text-align: center;
-        list-style-type: none;
-        &:active{
-            @include bg_active_li;
-        }
-        a{
-            color:white;
-            font-size: .8em;
-            text-decoration: none;
+        li{
+            margin-top: 1.2em; 
+            margin-bottom:1.2em; 
+            text-align: center;
+            list-style-type: none;
+           
+            a{
+                background-color: $bg_li;
+                /*  width: 100vw;*/
+                padding:.7em 13em;
+                margin-left:-4em;
+                color:white;
+                font-size: .8em;
+                text-decoration: none;
+                &:active{
+                    @include bg_active_li;
+                }
+            }
         }
     }
 }
