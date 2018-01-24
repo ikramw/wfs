@@ -6,14 +6,13 @@
 }
 
 .om1 {
-  font-size: 0.75em;
   padding: 1.25em 0 0 1.6em;
-  font-weight: bold;
   position: absolute;
 }
 
 .om2 {
-  font-size: 0.65em;
+  font-size: $mobile-p-font;
+  font-family: $font-family;
   padding: 4.5em 2em 0 2em;
   position: absolute;
 }
@@ -29,14 +28,14 @@
   }
 
   .om1 {
-    font-size: 1.375em;
-    padding: 5em 0 4em 5em;
+    padding: 0 3em 0 8.3em;
     font-weight: bold;
     position: absolute;
   }
 
   .om2 {
-    font-size: 1.125em;
+    font-size: $tablet-p-font;
+    font-family: $font-family;
     padding: 34em 8em 4em 1.6em;
     position: absolute;
   }
@@ -54,14 +53,14 @@
   }
 
   .om1 {
-    font-size: 1.4em;
     padding: 5em 0 4em 5em;
     font-weight: bold;
     position: absolute;
   }
 
   .om2 {
-    font-size: 1.2em;
+    font-size: $desktop-p-font;
+    font-family: $font-family;
     padding: 40em 16em 6em 4em;
     position: relative;
 
@@ -79,14 +78,14 @@
   }
 
   .om1 {
-    font-size: 1.4em;
     padding: 5em 0 4em 5em;
     font-weight: bold;
     position: absolute;
   }
 
   .om2 {
-    font-size: 1.2em;
+    font-size: $desktop-p-font;
+    font-family: $font-family;
     padding: 53em 22em 6em 4em;
     position: relative;
   }
@@ -111,7 +110,8 @@
     }
 
     .om2 {
-      font-size: 1.25em;
+      font-size: $desktop-p-font;
+      font-family: $font-family;
       padding: 56em 20em 6em 4em;
     }
   }
