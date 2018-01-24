@@ -1,118 +1,39 @@
 @import "variablerAndFunctions";
+body, html {
+  height: 100%;
+}
+.parallax_om {
+  /* The image used */
+  background-image: url("../image/bulding.jpg");
 
-.build1 {
-  width: 100%;
-  height: 550px;
+  /* Full height */
+  height: 100%; 
+  margin:0;
+ 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.om1 {
-  font-size: 0.75em;
-  padding: 1.25em 0 0 1.6em;
-  font-weight: bold;
-  position: absolute;
-}
-
-.om2 {
-  font-size: 0.65em;
-  padding: 4.5em 2em 0 2em;
-  position: absolute;
-}
-
-.books {
-  display: none;
-}
-
-@include tablet {
-  .build1 {
-    width: 100%;
-    height: 100%;
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+/*@media only screen and (max-width: 1024px) {
+  .parallax {
+      background-attachment: scroll;
   }
+}*/
 
-  .om1 {
-    font-size: 1.375em;
-    padding: 5em 0 4em 5em;
-    font-weight: bold;
-    position: absolute;
+.poss{
+   /*background-color: #dbecf0;*/
+   color: #777;
+   background-color: white;
+   text-align: center;
+   padding: 80px 80px;
+   text-align: justify;
+   margin-top:-20em;
+   opacity:1 ;
+   p{
+   margin: 0;}
   }
-
-  .om2 {
-    font-size: 1.125em;
-    padding: 34em 8em 4em 1.6em;
-    position: absolute;
-  }
-
-  footer {
-    position: relative;
-  }
-}
-
-
-@include desktop {
-  .build1 {
-    width: 100%;
-    height: 100%;
-  }
-
-  .om1 {
-    font-size: 1.4em;
-    padding: 5em 0 4em 5em;
-    font-weight: bold;
-    position: absolute;
-  }
-
-  .om2 {
-    font-size: 1.2em;
-    padding: 40em 16em 6em 4em;
-    position: relative;
-
-    .books {
-      display: block;
-    }
-  }
-}
-
-
-@include desktop2 {
-  .build1 {
-    width: 100%;
-    height: 100%;
-  }
-
-  .om1 {
-    font-size: 1.4em;
-    padding: 5em 0 4em 5em;
-    font-weight: bold;
-    position: absolute;
-  }
-
-  .om2 {
-    font-size: 1.2em;
-    padding: 53em 22em 6em 4em;
-    position: relative;
-  }
-
-  .books {
-    display: block;
-    width: 12em;
-    height: 30em;
-    position: absolute;
-    left: 59em;
-    top: 58em;
-  }
-
-  @include desktop3 {
-    .books {
-      display: block;
-      width: 12em;
-      height: 30em;
-      position: absolute;
-      left: 73em;
-      top: 64em;
-    }
-
-    .om2 {
-      font-size: 1.25em;
-      padding: 56em 20em 6em 4em;
-    }
-  }
-}
