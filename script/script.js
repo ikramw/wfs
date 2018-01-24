@@ -1,6 +1,11 @@
 var nav=document.getElementById("nav-res");
 var icon=document.getElementById("hamburger");
-icon.addEventListener("click",show_menu);
+if (icon.addEventListener) {
+    icon.addEventListener("click", show_menu, false);
+}
+else {
+    icon.attachEvent("onclick", show_menu);
+}
 
 function show_menu(){
     if(nav.className == "displayNone")
