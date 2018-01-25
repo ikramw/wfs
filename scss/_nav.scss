@@ -59,7 +59,10 @@
             text-align: center;
             list-style-type: none; 
             background-color: $bg_li; 
-            padding:1em;        
+            padding:1em;  
+            &:active{
+                @include bg_active_li;
+            }      
             a{
                 /*  width: 100vw;*/
                 padding:2em 13em;
@@ -67,9 +70,6 @@
                 color:white;
                 font-size: .8em;
                 text-decoration: none;
-                &:active{
-                    @include bg_active_li;
-                }
             }
         }
     }
