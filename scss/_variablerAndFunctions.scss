@@ -57,6 +57,35 @@ $font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     @content;
     }
 }
+@mixin nav_tablet{
+    ul{
+        width: 100vw;
+        li{
+            margin-left:-2em;
+            margin-right: 3em;
+            margin-top: 1.3em; 
+            margin-bottom:1em; 
+            margin-bottom: .3em;
+            text-align: center;
+            list-style-type: none; 
+                
+            padding:.7em;  
+            &:active{
+                @include bg_active_li;
+            }      
+            a{
+            /*  width: 100vw;*/
+            padding:1em 20em;
+            margin-left:-4em;
+            color:white;
+            font-size: 1.2em;
+            text-decoration: none;
+            background-color: $bg_li;
+            }
+        }
+    }
+
+}
 
 @mixin mobile1 {
     @media #{$mobile1} {
