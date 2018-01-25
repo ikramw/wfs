@@ -36,3 +36,9 @@ label {
 
 
 }
+
+  form{
+    @media #{$mobile-kontakt}{
+    text-align: center;
+    }
+  }
