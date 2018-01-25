@@ -5,49 +5,33 @@
    align-items: center;
    flex-direction: column;
 
-
-   textarea{
+  .formu{
+    float: left;
+    margin-right: 4em;
+    textarea{
     width: 10em;
     height: 7em;
-    border: solid 1px black;
-
- }
-
-
- input{
+    border: solid 1px black;    
+   }
+    input{
     border:solid 1px black;
-
+  }
+    label{    
+    width: 10em;
+    margin-right: 1em; 
+  }
 }
-
-
-label {
-    float: right;
-     width: 10em;
-     margin-right: 1em; }
-
-
-
-
    .kontakt-image{
     width: 300px;
     height: 300px;
     padding: 1rem;
     }
-
-
-}
-
-  form{
-    @media #{$mobile-kontakt}{
-    text-align: center;
-    }
   }
-
+ 
   .contact{
     background-color: #C2E4FE;
   }
 
-
   .header-kontakt{
     padding: 1em;
-    }
+ }
