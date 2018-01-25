@@ -5,9 +5,9 @@ body, html {
 .parallax_om1 {
   /* The image used */
   background-image: url("../image/bulding.jpg");
-  height: 50%; 
+  height: 50%;
   margin:0;
- 
+
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -20,7 +20,7 @@ body, html {
   background-image: url("../image/bulding.jpg");
 
   /* Full height */
-  height: 50%; 
+  height: 50%;
   margin:0;
  /* opacity:0.65 ;*/
 
@@ -47,9 +47,12 @@ body, html {
    text-align: justify;
   /* margin-top:-20em;*/
    opacity:1 ;
+   padding: 20px 20px;
    p{
    margin: 0;}
   }
+
+
  /* .kunderI{
     margin-top:20em;
   }*/
