@@ -35,3 +35,10 @@
   .header-kontakt{
     padding: 1em;
  }
+
+ form{
+   @media #{$mobile-kontakt}{
+   margin-left: 4.5em;
+   text-align: center;
+   }
+ }
