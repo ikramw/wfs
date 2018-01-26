@@ -11,14 +11,14 @@
     textarea{
     width: 10em;
     height: 7em;
-    border: solid 1px black;    
+    border: solid 1px black;
    }
     input{
     border:solid 1px black;
   }
-    label{    
+    label{
     width: 10em;
-    margin-right: 1em; 
+    margin-right: 1em;
   }
 }
    .kontakt-image{
@@ -27,9 +27,9 @@
     padding: 1rem;
     }
   }
- 
+
   .contact{
-    background-color: #C2E4FE;
+    background-color: $contact-blue-color;
   }
 
   .header-kontakt{

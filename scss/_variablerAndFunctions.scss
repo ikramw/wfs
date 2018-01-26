@@ -17,7 +17,7 @@ $mobile-p-font: 0.82em;
 $tablet-p-font: 1em;
 $desktop-p-font: 1.1em;
 $font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+$contact-blue-color: #C2E4FE;
 
 @mixin bg_active_li{
     background-color: darken($bg_li, 10%);
@@ -63,16 +63,16 @@ $font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         li{
             margin-left:-2em;
             margin-right: 3em;
-            margin-top: 1.3em; 
-            margin-bottom:1em; 
+            margin-top: 1.3em;
+            margin-bottom:1em;
             margin-bottom: .3em;
             text-align: center;
-            list-style-type: none; 
-                
-            padding:.7em;  
+            list-style-type: none;
+
+            padding:.7em;
             &:active{
                 @include bg_active_li;
-            }      
+            }
             a{
             /*  width: 100vw;*/
             padding:1em 20em;
