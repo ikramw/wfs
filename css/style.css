@@ -14,19 +14,26 @@ h2 {
   align-items: center;
 }
 
-/* line 14, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kunder.scss */
+@media (max-width: 500px) {
+  /* line 5, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kunder.scss */
+  .mid-container {
+    margin-left: -2.3em;
+  }
+}
+
+/* line 17, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kunder.scss */
 section p {
   margin-top: 2em;
 }
 
-/* line 18, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kunder.scss */
+/* line 21, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kunder.scss */
 .kunderimage {
   width: 60px;
   height: auto;
   padding-top: 1rem;
 }
 
-/* line 23, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kunder.scss */
+/* line 26, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kunder.scss */
 .text-kunder {
   text-align: center;
   font-size: 1.1em;

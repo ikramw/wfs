@@ -9,6 +9,9 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    @media #{$mobile-kunder}{
+    margin-left: -2.3em;
+    }
 }
 section{
     p{
