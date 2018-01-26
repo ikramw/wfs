@@ -466,7 +466,7 @@ body, html {
 /* line 12, C:/Users/Ikram/Desktop/wfs/scss/_tjänster.scss */
 .parallax1 {
   /* The image used */
-  background-image: url("../image/penor.jpg");
+  background-image: url("wfs/image/penor.jpg");
   /* Full height */
   height: 50%;
   margin: 0;
@@ -479,7 +479,7 @@ body, html {
 /* line 26, C:/Users/Ikram/Desktop/wfs/scss/_tjänster.scss */
 .parallax {
   /* The image used */
-  background-image: url("../image/penor.jpg");
+  background-image: url("wfs/image/penor.jpg");
   /* Full height */
   height: 50%;
   margin: 0;
