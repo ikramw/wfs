@@ -1,10 +1,10 @@
 @charset "UTF-8";
-/* line 2, C:/Users/Ikram/Desktop/wfs/scss/_kunder.scss */
+/* line 2, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kunder.scss */
 h2 {
   text-align: center;
 }
 
-/* line 5, C:/Users/Ikram/Desktop/wfs/scss/_kunder.scss */
+/* line 5, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kunder.scss */
 .mid-container {
   margin: 2em;
   padding: 2em;
@@ -14,26 +14,26 @@ h2 {
   align-items: center;
 }
 
-/* line 14, C:/Users/Ikram/Desktop/wfs/scss/_kunder.scss */
+/* line 14, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kunder.scss */
 section p {
   margin-top: 2em;
 }
 
-/* line 19, C:/Users/Ikram/Desktop/wfs/scss/_kunder.scss */
+/* line 18, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kunder.scss */
 .kunderimage {
   width: 60px;
   height: auto;
   padding-top: 1rem;
 }
 
-/* line 24, C:/Users/Ikram/Desktop/wfs/scss/_kunder.scss */
+/* line 23, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kunder.scss */
 .text-kunder {
   text-align: center;
   font-size: 1.1em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* line 2, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
+/* line 2, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kontakt.scss */
 .containerContact {
   display: flex;
   justify-content: space-around;
@@ -41,49 +41,62 @@ section p {
   flex-direction: column;
 }
 
-/* line 8, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
+/* line 8, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kontakt.scss */
 .containerContact .formu {
   float: left;
   margin-right: 4em;
 }
 
-/* line 11, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
+/* line 11, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kontakt.scss */
 .containerContact .formu textarea {
   width: 10em;
   height: 7em;
   border: solid 1px black;
 }
 
-/* line 16, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
+/* line 16, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kontakt.scss */
 .containerContact .formu input {
   border: solid 1px black;
 }
 
-/* line 19, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
+/* line 19, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kontakt.scss */
 .containerContact .formu label {
   width: 10em;
   margin-right: 1em;
 }
 
-/* line 24, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
+/* line 24, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kontakt.scss */
 .containerContact .kontakt-image {
   width: 300px;
   height: 300px;
   padding: 1rem;
 }
 
-/* line 31, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
+/* line 31, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kontakt.scss */
 .contact {
   background-color: #C2E4FE;
 }
 
-/* line 35, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
+/* line 35, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kontakt.scss */
 .header-kontakt {
   padding: 1em;
 }
 
+/* line 38, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kontakt.scss */
+h2 {
+  text-align: center;
+}
+
+@media (max-width: 560px) {
+  /* line 42, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_kontakt.scss */
+  form {
+    margin-left: 4.5em;
+    text-align: center;
+  }
+}
+
 @media (min-width: 500px) {
-  /* line 2, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
+  /* line 2, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_mediaq.scss */
   .mid-container {
     /* width: 400px;*/
     margin-top: 2em;
@@ -102,7 +115,7 @@ section p {
 }
 
 @media (min-width: 500px) {
-  /* line 18, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
+  /* line 18, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_mediaq.scss */
   .mid-container .kunderimage {
     width: 100px;
     padding: 10px;
@@ -110,7 +123,7 @@ section p {
 }
 
 @media (min-width: 500px) {
-  /* line 23, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
+  /* line 23, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_mediaq.scss */
   .mid-container .kunderimage .kunderimage1 {
     float: left;
     width: 100px;
@@ -119,7 +132,7 @@ section p {
 }
 
 @media (min-width: 800px) {
-  /* line 32, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
+  /* line 32, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_mediaq.scss */
   .mid-container {
     width: 800px;
     height: 600px;
@@ -142,7 +155,7 @@ section p {
 }
 
 @media (min-width: 800px) {
-  /* line 53, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
+  /* line 53, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_mediaq.scss */
   .mid-container .kunderimage {
     float: left;
     width: 100px;
@@ -152,7 +165,7 @@ section p {
 }
 
 @media (min-width: 560px) {
-  /* line 65, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
+  /* line 65, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_mediaq.scss */
   .containerContact {
     display: flex;
     justify-content: space-around;
@@ -160,7 +173,7 @@ section p {
   }
 }
 
-/* line 71, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
+/* line 71, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_mediaq.scss */
 .containerContact .kontakt-image {
   width: 350px;
   height: 350px;
@@ -168,7 +181,7 @@ section p {
   margin-left: 1rem;
 }
 
-/* line 3, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 3, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_nav.scss */
 .header {
   display: flex;
   justify-content: space-around;
@@ -179,12 +192,12 @@ section p {
   margin-bottom: 0.3em;
 }
 
-/* line 11, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 11, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_nav.scss */
 .header .logo {
   float: left;
 }
 
-/* line 14, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 14, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_nav.scss */
 .header-hamburger {
   float: right;
   position: fixed;
@@ -196,18 +209,18 @@ section p {
   align-self: flex-end;
 }
 
-/* line 23, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 23, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_nav.scss */
 .header-hamburger:hover {
   cursor: pointer;
 }
 
-/* line 26, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 26, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_nav.scss */
 .header-hamburger img {
   width: 2em;
   height: 2em;
 }
 
-/* line 31, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 31, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_nav.scss */
 .header .talande {
   display: flex;
   margin-left: 1em;
@@ -215,23 +228,23 @@ section p {
   align-items: center;
 }
 
-/* line 36, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 36, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_nav.scss */
 .header .talande .talande-webb {
   float: left;
 }
 
-/* line 39, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 39, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_nav.scss */
 .header .talande p {
   padding: .2em;
   font-size: 1.2em;
 }
 
-/* line 45, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 45, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_nav.scss */
 .displayNone {
   display: none;
 }
 
-/* line 48, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 48, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_nav.scss */
 .nav-res {
   display: block;
   position: fixed;
@@ -239,12 +252,12 @@ section p {
   left: 0;
 }
 
-/* line 53, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 53, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_nav.scss */
 .nav-res ul {
   width: 100vw;
 }
 
-/* line 55, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 55, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_nav.scss */
 .nav-res ul li {
   margin-left: -2em;
   /* margin-right: 3em;
@@ -256,12 +269,12 @@ section p {
   padding: .7em;
 }
 
-/* line 65, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 65, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_nav.scss */
 .nav-res ul li:active {
   background-color: #00317f;
 }
 
-/* line 68, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 68, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_nav.scss */
 .nav-res ul li a {
   /*  width: 100vw;*/
   padding: 1em 13em;
@@ -273,18 +286,18 @@ section p {
 }
 
 @media (min-width: 768px) {
-  /* line 80, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+  /* line 80, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_nav.scss */
   .header {
     height: 7em;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 61, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  /* line 62, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
   .nav-res ul {
     width: 100vw;
   }
-  /* line 63, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  /* line 64, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
   .nav-res ul li {
     margin-left: -2em;
     margin-right: 3em;
@@ -295,11 +308,11 @@ section p {
     list-style-type: none;
     padding: .7em;
   }
-  /* line 73, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  /* line 74, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
   .nav-res ul li:active {
     background-color: #00317f;
   }
-  /* line 76, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  /* line 77, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
   .nav-res ul li a {
     /*  width: 100vw;*/
     padding: 1em 20em;
@@ -312,14 +325,14 @@ section p {
 }
 
 @media (min-width: 904px) {
-  /* line 91, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+  /* line 91, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_nav.scss */
   #hamburger, #nav-res {
     display: none;
   }
 }
 
 @media (min-width: 904px) {
-  /* line 96, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+  /* line 96, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_nav.scss */
   #nav-des {
     display: block;
     float: right;
@@ -327,23 +340,23 @@ section p {
     margin-top: 1.5em;
     display: block;
   }
-  /* line 31, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  /* line 32, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
   #nav-des ul {
     margin-bottom: 0;
     margin-top: -.5em;
   }
-  /* line 34, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  /* line 35, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
   #nav-des ul li {
     background-color: #0044b2;
     padding: .5em 1.2em;
     margin-left: .1em;
     display: inline-block;
   }
-  /* line 39, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  /* line 40, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
   #nav-des ul li:active {
     background-color: #00317f;
   }
-  /* line 42, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  /* line 43, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
   #nav-des ul li a {
     color: white;
     font-size: 1.2em;
@@ -351,7 +364,7 @@ section p {
   }
 }
 
-/* line 2, C:/Users/Ikram/Desktop/wfs/scss/_footer.scss */
+/* line 2, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_footer.scss */
 footer {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -361,30 +374,30 @@ footer {
   padding: 2em;
 }
 
-/* line 11, C:/Users/Ikram/Desktop/wfs/scss/_footer.scss */
+/* line 11, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_footer.scss */
 footer p {
   margin-right: 2em;
   float: left;
 }
 
-/* line 15, C:/Users/Ikram/Desktop/wfs/scss/_footer.scss */
+/* line 15, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_footer.scss */
 footer img {
   float: right;
   height: 4em;
   width: 4em;
 }
 
-/* line 20, C:/Users/Ikram/Desktop/wfs/scss/_footer.scss */
+/* line 20, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_footer.scss */
 footer .clearfix {
   clear: both;
 }
 
-/* line 2, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
+/* line 2, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_omoss.scss */
 body, html {
   height: 100%;
 }
 
-/* line 5, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
+/* line 5, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_omoss.scss */
 .parallax_om1 {
   /* The image used */
   background-image: url("../image/bulding.jpg");
@@ -397,7 +410,7 @@ body, html {
   background-size: cover;
 }
 
-/* line 18, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
+/* line 18, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_omoss.scss */
 .parallax_om {
   /* The image used */
   background-image: url("../image/bulding.jpg");
@@ -414,18 +427,19 @@ body, html {
 
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
 @media only screen and (max-width: 1024px) {
-  /* line 36, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
+  /* line 36, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_omoss.scss */
   .parallax {
     background-attachment: scroll;
   }
 }
 
-/* line 41, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
+/* line 41, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_omoss.scss */
 .poss {
   /*background-color: #dbecf0;*/
   color: #777;
   background-color: white;
   text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   /* padding: 80px 80px;*/
   text-align: justify;
   /* margin-top:-20em;*/
@@ -433,13 +447,13 @@ body, html {
   padding: 20px 20px;
 }
 
-/* line 51, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
+/* line 52, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_omoss.scss */
 .poss p {
   margin: 0;
 }
 
 @media (min-width: 630px) {
-  /* line 41, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
+  /* line 41, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_omoss.scss */
   .poss {
     padding: 60px 40px;
   }
@@ -448,22 +462,22 @@ body, html {
 /* .kunderI{
     margin-top:20em;
   }*/
-/* line 2, C:/Users/Ikram/Desktop/wfs/scss/_tjänster.scss */
+/* line 2, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_tjänster.scss */
 .tjenster, .om_oss {
   height: 100%;
 }
 
-/* line 5, C:/Users/Ikram/Desktop/wfs/scss/_tjänster.scss */
+/* line 5, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_tjänster.scss */
 .tjenster {
   margin-top: 23em;
 }
 
-/* line 9, C:/Users/Ikram/Desktop/wfs/scss/_tjänster.scss */
+/* line 9, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_tjänster.scss */
 .kunderI {
   margin-top: 29em;
 }
 
-/* line 12, C:/Users/Ikram/Desktop/wfs/scss/_tjänster.scss */
+/* line 12, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_tjänster.scss */
 .parallax1 {
   /* The image used */
   background-image: url("../image/penor.jpg");
@@ -476,7 +490,7 @@ body, html {
   background-size: cover;
 }
 
-/* line 26, C:/Users/Ikram/Desktop/wfs/scss/_tjänster.scss */
+/* line 26, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_tjänster.scss */
 .parallax {
   /* The image used */
   background-image: url("../image/penor.jpg");
