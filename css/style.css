@@ -299,11 +299,11 @@ h2 {
 }
 
 @media (min-width: 768px) {
-  /* line 60, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
+  /* line 58, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
   .nav-res ul {
     width: 100vw;
   }
-  /* line 62, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
+  /* line 60, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
   .nav-res ul li {
     margin-left: -2em;
     margin-right: 3em;
@@ -314,11 +314,11 @@ h2 {
     list-style-type: none;
     padding: .7em;
   }
-  /* line 72, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
+  /* line 70, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
   .nav-res ul li:active {
     background-color: #00317f;
   }
-  /* line 75, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
+  /* line 73, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
   .nav-res ul li a {
     /*  width: 100vw;*/
     padding: 1em 20em;
@@ -346,23 +346,23 @@ h2 {
     margin-top: 1.5em;
     display: block;
   }
-  /* line 30, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
+  /* line 28, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
   #nav-des ul {
     margin-bottom: 0;
     margin-top: -.5em;
   }
-  /* line 33, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
+  /* line 31, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
   #nav-des ul li {
     background-color: #0044b2;
     padding: .5em 1.2em;
     margin-left: .1em;
     display: inline-block;
   }
-  /* line 38, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
+  /* line 36, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
   #nav-des ul li:active {
     background-color: #00317f;
   }
-  /* line 41, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
+  /* line 39, /Users/angelabrahamosoriafernandez/Documents/GitHub/wfs/scss/_variablerAndFunctions.scss */
   #nav-des ul li a {
     color: white;
     font-size: 1.2em;

@@ -16,8 +16,6 @@ $tablet-width: 756px;
 $tablet-poss: "(min-width: 630px)";
 
 
-
-
 @mixin bg_active_li{
     background-color: darken($bg_li, 10%);
 }
