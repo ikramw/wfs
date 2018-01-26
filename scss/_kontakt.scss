@@ -35,10 +35,14 @@
   .header-kontakt{
     padding: 1em;
  }
+ h2{
+   text-align: center;
+ }
 
  form{
    @media #{$mobile-kontakt}{
    margin-left: 4.5em;
    text-align: center;
+   margin: 0;
    }
  }
