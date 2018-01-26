@@ -11,7 +11,7 @@
         align-content: center;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;       
+        grid-template-rows: 1fr 1fr;
         padding:2em;
         grid-gap: 2rem;
     }
@@ -26,8 +26,8 @@
         width:100px;
         padding: 10px;
         }
-     } 
-    }   
+     }
+    }
 }
 .mid-container{
     @media #{$desktop-kunder-mediaq}{
@@ -45,11 +45,11 @@
         align-content: center;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;       
+        grid-template-rows: 1fr 1fr;
         padding:2em;
         grid-gap: 2rem;
     }
-  
+
     .kunderimage{
         @media #{$desktop-kunder-mediaq}{
         float: left;
@@ -57,7 +57,7 @@
         padding: 10px;
         margin:50px;
         }
-     
+
     }
 }
 //mediaq for kontakt
@@ -72,6 +72,5 @@
         width: 350px;
         height: 350px;
         padding: 1rem;
-        margin-left: 1rem;
     }
 }
