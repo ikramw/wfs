@@ -1,24 +1,22 @@
 $bg_nav_footer:#dbecf0;
 $bg_li:#0044b2;
-$margin-bottom:.3em;
-$tablet: "(min-width:768px)";
+$contact-blue-color: #C2E4FE;
 $desktop: "(min-width: 904px)";
-$desktop2: "(min-width: 1153px)";
-$mobile1: "(min-width: 422px)";
+$desktop-kunder-mediaq: "(min-width: 800px)";
+$desktop-p-font: 1.1em;
+$font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$margin-bottom:.3em;
 $mobile-kontakt: "(max-width: 560px)";
 $mobile-kunder: "(max-width: 500px)";
 $mobile-width: 375px;
+$tablet: "(min-width:768px)";
 $tablet-kunder-mediaq: "(min-width: 500px)";
 $tablet-kontakt-mediaq: "(min-width: 560px)";
 $tablet-width: 756px;
 $tablet-poss: "(min-width: 630px)";
-$desktop-kunder-mediaq: "(min-width: 800px)";
-$h2font: 2em;
-$mobile-p-font: 0.82em;
-$tablet-p-font: 1em;
-$desktop-p-font: 1.1em;
-$font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$contact-blue-color: #C2E4FE;
+
+
+
 
 @mixin bg_active_li{
     background-color: darken($bg_li, 10%);
@@ -86,28 +84,4 @@ $contact-blue-color: #C2E4FE;
         }
     }
 
-}
-
-@mixin mobile1 {
-    @media #{$mobile1} {
-    @content;
-    }
-}
-
-@mixin mobile2 {
-    @media #{$mobile2} {
-    @content;
-    }
-}
-
-@mixin desktop2 {
-    @media #{$desktop2} {
-    @content;
-    }
-}
-
-@mixin desktop3 {
-    @media #{$desktop3} {
-    @content;
-    }
 }
