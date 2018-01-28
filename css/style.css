@@ -411,7 +411,7 @@ body, html {
   margin: 0;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  /* background-position: center;*/
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -426,7 +426,7 @@ body, html {
   /* opacity:0.65 ;*/
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  background-position: center;
+  /* background-position: center;*/
   background-repeat: no-repeat;
   background-size: cover;
 }
