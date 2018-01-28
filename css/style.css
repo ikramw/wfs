@@ -299,11 +299,11 @@ h2 {
 }
 
 @media (min-width: 768px) {
-  /* line 62, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  /* line 58, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
   .nav-res ul {
     width: 100vw;
   }
-  /* line 64, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  /* line 60, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
   .nav-res ul li {
     margin-left: -2em;
     margin-right: 3em;
@@ -314,11 +314,11 @@ h2 {
     list-style-type: none;
     padding: .7em;
   }
-  /* line 74, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  /* line 70, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
   .nav-res ul li:active {
     background-color: #00317f;
   }
-  /* line 77, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  /* line 73, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
   .nav-res ul li a {
     /*  width: 100vw;*/
     padding: 1em 20em;
@@ -346,23 +346,23 @@ h2 {
     margin-top: 1.5em;
     display: block;
   }
-  /* line 32, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  /* line 28, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
   #nav-des ul {
     margin-bottom: 0;
     margin-top: -.5em;
   }
-  /* line 35, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  /* line 31, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
   #nav-des ul li {
     background-color: #0044b2;
     padding: .5em 1.2em;
     margin-left: .1em;
     display: inline-block;
   }
-  /* line 40, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  /* line 36, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
   #nav-des ul li:active {
     background-color: #00317f;
   }
-  /* line 43, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  /* line 39, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
   #nav-des ul li a {
     color: white;
     font-size: 1.2em;
