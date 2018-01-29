@@ -1,12 +1,36 @@
 @charset "UTF-8";
-/* line 2, C:/Users/Ikram/Desktop/wfs/scss/_kunder.scss */
-h2 {
-  text-align: center;
+/* line 97, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+.poss {
+  color: #777;
+  background-color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: justify;
+  padding: 20px 20px;
 }
 
-/* line 5, C:/Users/Ikram/Desktop/wfs/scss/_kunder.scss */
-.mid-container {
-  margin: 2em;
+/* line 103, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+.poss p {
+  /*margin-top:2em;*/
+  margin: 0;
+}
+
+/* line 1, C:/Users/Ikram/Desktop/wfs/scss/_kunder.scss */
+.kunderI {
+  margin-top: 30em;
+}
+
+/* line 3, C:/Users/Ikram/Desktop/wfs/scss/_kunder.scss */
+.kunderI .text-kunder {
+  text-align: center;
+  font-size: 1.1em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 2em;
+}
+
+/* line 9, C:/Users/Ikram/Desktop/wfs/scss/_kunder.scss */
+.kunderI .mid-container {
+  max-height: 40em;
+  margin-right: 2.5em;
   padding: 2em;
   display: flex;
   flex-direction: column;
@@ -14,88 +38,65 @@ h2 {
   align-items: center;
 }
 
-@media (max-width: 500px) {
-  /* line 5, C:/Users/Ikram/Desktop/wfs/scss/_kunder.scss */
-  .mid-container {
-    margin-left: -2.3em;
-  }
-}
-
 /* line 17, C:/Users/Ikram/Desktop/wfs/scss/_kunder.scss */
-section p {
-  margin-top: 2em;
-}
-
-/* line 21, C:/Users/Ikram/Desktop/wfs/scss/_kunder.scss */
-.kunderimage {
+.kunderI .mid-container .kunderimage {
   width: 60px;
   height: auto;
   padding-top: 1rem;
 }
 
-/* line 26, C:/Users/Ikram/Desktop/wfs/scss/_kunder.scss */
-.text-kunder {
-  text-align: center;
-  font-size: 1.1em;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/* line 1, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
+.contact {
+  background-color: #C2E4FE;
 }
 
-/* line 2, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
-.containerContact {
+/* line 3, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
+.contact .header-kontakt {
+  padding: 1em;
+}
+
+/* line 6, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
+.contact .containerContact {
+  height: 40em;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
 }
 
-/* line 8, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
-.containerContact .formu {
+/* line 13, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
+.contact .containerContact .formu {
   float: left;
   margin-right: 4em;
 }
 
-/* line 11, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
-.containerContact .formu textarea {
+/* line 16, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
+.contact .containerContact .formu textarea {
   width: 10em;
   height: 7em;
   border: solid 1px black;
 }
 
-/* line 16, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
-.containerContact .formu input {
+/* line 21, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
+.contact .containerContact .formu input {
   border: solid 1px black;
 }
 
-/* line 19, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
-.containerContact .formu label {
+/* line 24, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
+.contact .containerContact .formu label {
   width: 10em;
   margin-right: 1em;
 }
 
-/* line 24, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
-.containerContact .kontakt-image {
-  width: 300px;
+/* line 29, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
+.contact .containerContact .kontakt-image {
+  width: 280px;
   height: 300px;
-  padding: 1rem;
-}
-
-/* line 31, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
-.contact {
-  background-color: #C2E4FE;
-}
-
-/* line 35, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
-.header-kontakt {
-  padding: 1em;
-}
-
-/* line 38, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
-h2 {
-  text-align: center;
+  padding: .8rem;
 }
 
 @media (max-width: 560px) {
-  /* line 42, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
+  /* line 36, C:/Users/Ikram/Desktop/wfs/scss/_kontakt.scss */
   form {
     margin-left: 4.5em;
     text-align: center;
@@ -104,8 +105,7 @@ h2 {
 
 @media (min-width: 500px) {
   /* line 2, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
-  .mid-container {
-    /* width: 400px;*/
+  .kunderI .mid-container {
     margin-top: 2em;
     margin-left: 4em;
     display: flex;
@@ -118,12 +118,13 @@ h2 {
     grid-template-rows: 1fr 1fr;
     padding: 2em;
     grid-gap: 2rem;
+    height: 46em;
   }
 }
 
 @media (min-width: 500px) {
   /* line 18, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
-  .mid-container .kunderimage {
+  .kunderI .mid-container .kunderimage {
     width: 100px;
     padding: 10px;
   }
@@ -131,7 +132,7 @@ h2 {
 
 @media (min-width: 500px) {
   /* line 23, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
-  .mid-container .kunderimage .kunderimage1 {
+  .kunderI .mid-container .kunderimage .kunderimage1 {
     float: left;
     width: 100px;
     padding: 10px;
@@ -140,7 +141,7 @@ h2 {
 
 @media (min-width: 800px) {
   /* line 32, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
-  .mid-container {
+  .kunderI .mid-container {
     width: 800px;
     height: 600px;
     margin-left: 20em;
@@ -163,7 +164,7 @@ h2 {
 
 @media (min-width: 800px) {
   /* line 53, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
-  .mid-container .kunderimage {
+  .kunderI .mid-container .kunderimage {
     float: left;
     width: 100px;
     padding: 10px;
@@ -173,21 +174,14 @@ h2 {
 
 @media (min-width: 560px) {
   /* line 65, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
-  .containerContact {
+  .contact .containerContact {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
   }
 }
 
-/* line 71, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
-.containerContact .kontakt-image {
-  width: 350px;
-  height: 350px;
-  padding: 1rem;
-}
-
-/* line 3, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 2, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
 .header {
   display: flex;
   justify-content: space-around;
@@ -198,12 +192,12 @@ h2 {
   margin-bottom: 0.3em;
 }
 
-/* line 11, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 10, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
 .header .logo {
   float: left;
 }
 
-/* line 14, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 13, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
 .header-hamburger {
   float: right;
   position: fixed;
@@ -215,18 +209,18 @@ h2 {
   align-self: flex-end;
 }
 
-/* line 23, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 22, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
 .header-hamburger:hover {
   cursor: pointer;
 }
 
-/* line 26, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 25, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
 .header-hamburger img {
   width: 2em;
   height: 2em;
 }
 
-/* line 31, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 30, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
 .header .talande {
   display: flex;
   margin-left: 1em;
@@ -234,23 +228,23 @@ h2 {
   align-items: center;
 }
 
-/* line 36, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 35, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
 .header .talande .talande-webb {
   float: left;
 }
 
-/* line 39, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 38, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
 .header .talande p {
   padding: .2em;
   font-size: 1.2em;
 }
 
-/* line 45, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 44, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
 .displayNone {
   display: none;
 }
 
-/* line 48, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 47, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
 .nav-res {
   display: block;
   position: fixed;
@@ -258,12 +252,12 @@ h2 {
   left: 0;
 }
 
-/* line 53, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 52, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
 .nav-res ul {
   width: 100vw;
 }
 
-/* line 55, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 54, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
 .nav-res ul li {
   margin-left: -2em;
   /* margin-right: 3em;
@@ -275,12 +269,12 @@ h2 {
   padding: .7em;
 }
 
-/* line 65, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 64, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
 .nav-res ul li:active {
   background-color: #00317f;
 }
 
-/* line 68, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+/* line 67, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
 .nav-res ul li a {
   /*  width: 100vw;*/
   padding: 1em 13em;
@@ -292,7 +286,7 @@ h2 {
 }
 
 @media (min-width: 768px) {
-  /* line 80, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+  /* line 79, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
   .header {
     height: 7em;
   }
@@ -331,14 +325,14 @@ h2 {
 }
 
 @media (min-width: 904px) {
-  /* line 91, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+  /* line 89, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
   #hamburger, #nav-res {
     display: none;
   }
 }
 
 @media (min-width: 904px) {
-  /* line 96, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+  /* line 94, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
   #nav-des {
     display: block;
     float: right;
@@ -380,20 +374,20 @@ footer {
   padding: 2em;
 }
 
-/* line 11, C:/Users/Ikram/Desktop/wfs/scss/_footer.scss */
+/* line 10, C:/Users/Ikram/Desktop/wfs/scss/_footer.scss */
 footer p {
   margin-right: 2em;
   float: left;
 }
 
-/* line 15, C:/Users/Ikram/Desktop/wfs/scss/_footer.scss */
+/* line 14, C:/Users/Ikram/Desktop/wfs/scss/_footer.scss */
 footer img {
   float: right;
   height: 4em;
   width: 4em;
 }
 
-/* line 20, C:/Users/Ikram/Desktop/wfs/scss/_footer.scss */
+/* line 19, C:/Users/Ikram/Desktop/wfs/scss/_footer.scss */
 footer .clearfix {
   clear: both;
 }
@@ -403,117 +397,48 @@ body, html {
   height: 100%;
 }
 
-/* line 5, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
-.parallax_om1 {
-  /* The image used */
-  background-image: url("../image/bulding_mobil.jpg");
-  height: 50%;
-  margin: 0;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* line 18, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
-.parallax_om {
-  /* The image used */
-  background-image: url("../image/bulding_mobil.jpg");
-  /* Full height */
-  height: 50%;
-  margin: 0;
-  /* opacity:0.65 ;*/
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-@media only screen and (max-width: 1024px) {
-  /* line 36, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
-  .parallax {
-    background-attachment: scroll;
-  }
-}
-
-/* line 41, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
-.poss {
-  /*background-color: #dbecf0;*/
-  color: #777;
-  background-color: white;
+/* line 4, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
+body h2, html h2 {
   text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /* padding: 80px 80px;*/
-  text-align: justify;
-  /* margin-top:-20em;*/
-  opacity: 1;
-  padding: 20px 20px;
 }
 
-/* line 52, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
-.poss p {
+/* line 7, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
+body .om_oss, html .om_oss {
+  height: 100%;
+}
+
+/* line 9, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
+body .om_oss .parallax_om, html .om_oss .parallax_om {
+  background-image: url("../image/bulding.jpg");
+  background-position: center;
+  height: 50%;
   margin: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (min-width: 630px) {
-  /* line 41, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
+  /* line 16, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
   .poss {
     padding: 60px 40px;
   }
 }
 
-/* .kunderI{
-    margin-top:20em;
-  }*/
 /* line 2, C:/Users/Ikram/Desktop/wfs/scss/_tjänster.scss */
-.tjenster, .om_oss {
+.tjenster {
+  margin-top: 26em;
   height: 100%;
 }
 
 /* line 5, C:/Users/Ikram/Desktop/wfs/scss/_tjänster.scss */
-.tjenster {
-  margin-top: 23em;
-}
-
-/* line 9, C:/Users/Ikram/Desktop/wfs/scss/_tjänster.scss */
-.kunderI {
-  margin-top: 29em;
-}
-
-/* line 12, C:/Users/Ikram/Desktop/wfs/scss/_tjänster.scss */
-.parallax1 {
-  /* The image used */
-  background-image: url("../image/penor_mobil.jpg");
-  /* Full height */
+.tjenster .parallax {
+  background-image: url("../image/penor.jpg");
   height: 50%;
   margin: 0;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/* line 26, C:/Users/Ikram/Desktop/wfs/scss/_tjänster.scss */
-.parallax {
-  /* The image used */
-  background-image: url("../image/penor_mobil.jpg");
-  /* Full height */
-  height: 50%;
-  margin: 0;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
-/*@media only screen and (max-width: 1024px) {
-  .parallax {
-      background-attachment: scroll;
-  }
-}*/
 
 /*# sourceMappingURL=../css/style.map */

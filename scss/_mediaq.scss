@@ -1,7 +1,6 @@
 //mediaq for kunder
-.mid-container{
+.kunderI .mid-container{
     @media #{$tablet-kunder-mediaq}{
-       /* width: 400px;*/
         margin-top:2em;
         margin-left: 4em;
         display:flex;
@@ -14,6 +13,7 @@
         grid-template-rows: 1fr 1fr;
         padding:2em;
         grid-gap: 2rem;
+        height: 46em;
     }
     .kunderimage{
         @media #{$tablet-kunder-mediaq}{
@@ -29,7 +29,7 @@
      }
     }
 }
-.mid-container{
+.kunderI .mid-container{
     @media #{$desktop-kunder-mediaq}{
         width:800px ;
         height:600px ;
@@ -62,15 +62,10 @@
 }
 //mediaq for kontakt
 
-.containerContact{
+.contact .containerContact{
     @media #{$tablet-kontakt-mediaq}{
         display: flex;
         justify-content: space-around;
         flex-direction:row;
-    }
-    .kontakt-image{
-        width: 350px;
-        height: 350px;
-        padding: 1rem;
     }
 }

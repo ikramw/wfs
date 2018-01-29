@@ -1,30 +1,23 @@
-
-h2{
-    text-align: center;
-}
-.mid-container{
-    margin: 2em;
-    padding: 2em;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    @media #{$mobile-kunder}{
-    margin-left: -2.3em;
-    }
-}
-section{
-    p{
+.kunderI{
+    margin-top:30em;
+    .text-kunder{
+        text-align: center;
+        font-size: $desktop-p-font;
+        font-family: $font-family;
         margin-top:2em;
     }
-}
-.kunderimage{
-    width: 60px;
-    height: auto;
-    padding-top: 1rem;
-}
-.text-kunder{
-    text-align: center;
-    font-size: $desktop-p-font;
-    font-family: $font-family;
+    .mid-container{
+        max-height:40em ;
+        margin-right: 2.5em;
+        padding: 2em;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .kunderimage{
+        width: 60px;
+        height: auto;
+        padding-top: 1rem;
+        }
+    }    
 }

@@ -1,0 +1,31 @@
+.kunderI{
+    margin-top:29em;
+    .text-kunder{
+        text-align: center;
+        font-size: $desktop-p-font;
+        font-family: $font-family;
+        margin-top:2em;
+    }
+    .mid-container{
+        height:42em ;
+        max-width: 60em;
+        margin: 1em;
+        padding: 4em;
+        .kunderimage{
+            float:left;
+            margin-right: 12em;
+            margin-top: 2em;
+            width: 60px;
+            height: auto;
+            padding-top: 1rem;
+        }
+    }    
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    .tjenster{
+        margin-top:25.5em;
+    }
+}

@@ -10,8 +10,8 @@ $mobile-kontakt: "(max-width: 560px)";
 $mobile-kunder: "(max-width: 500px)";
 $mobile-width: 375px;
 $tablet: "(min-width:768px)";
-$tablet-kunder-mediaq: "(min-width: 500px)";
-$tablet-kontakt-mediaq: "(min-width: 560px)";
+$tablet-kunder-mediaq:"(min-width: 500px)";
+$tablet-kontakt-mediaq:"(min-width: 560px)";
 $tablet-width: 756px;
 $tablet-poss: "(min-width: 630px)";
 
@@ -81,5 +81,28 @@ $tablet-poss: "(min-width: 630px)";
             }
         }
     }
-
 }
+@mixin para{
+    height: 50%;
+    margin:0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @mixin tablet-poss {
+    @media #{$tablet-poss} {
+    @content;
+    }
+}
+  .poss{
+    color: #777;
+    background-color: white;
+    font-family: $font-family;
+    text-align: justify;
+    padding: 20px 20px;
+    p{
+    /*margin-top:2em;*/
+    margin:0;
+    }
+}
+

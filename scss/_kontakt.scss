@@ -1,45 +1,39 @@
-
-.containerContact{
-   display: flex;
-   justify-content: space-around;
-   align-items: center;
-   flex-direction: column;
-
-  .formu{
-    float: left;
-    margin-right: 4em;
-    textarea{
-    width: 10em;
-    height: 7em;
-    border: solid 1px black;
-   }
-    input{
-    border:solid 1px black;
-  }
-    label{
-    width: 10em;
-    margin-right: 1em;
-  }
-}
-   .kontakt-image{
-    width: 300px;
-    height: 300px;
-    padding: 1rem;
-    }
-  }
-
-  .contact{
-    background-color: $contact-blue-color;
-  }
-
-  .header-kontakt{
+.contact{
+  background-color: $contact-blue-color;
+   .header-kontakt{
     padding: 1em;
  }
- h2{
-   text-align: center;
- }
+  .containerContact{
+    height:40em ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 
- form{
+    .formu{
+      float: left;
+      margin-right: 4em;
+      textarea{
+      width: 10em;
+      height: 7em;
+      border: solid 1px black;
+    }
+      input{
+      border:solid 1px black;
+    }
+      label{
+      width: 10em;
+      margin-right: 1em;
+    }
+  }
+  .kontakt-image{
+  width: 280px;
+  height: 300px;
+  padding: .8rem;
+   }
+  }
+}  
+  form{
    @media #{$mobile-kontakt}{
    margin-left: 4.5em;
    text-align: center;
