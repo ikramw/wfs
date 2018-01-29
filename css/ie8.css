@@ -1,0 +1,447 @@
+@charset "UTF-8";
+/* line 97, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+.poss {
+  color: #777;
+  background-color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: justify;
+  padding: 20px 20px;
+}
+
+/* line 103, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+.poss p {
+  /*margin-top:2em;*/
+  margin: 0;
+}
+
+@media (min-width: 500px) {
+  /* line 2, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
+  .kunderI .mid-container {
+    margin-top: 2em;
+    margin-left: 4em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 2em;
+    grid-gap: 2rem;
+    height: 46em;
+  }
+}
+
+@media (min-width: 500px) {
+  /* line 18, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
+  .kunderI .mid-container .kunderimage {
+    width: 100px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 500px) {
+  /* line 23, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
+  .kunderI .mid-container .kunderimage .kunderimage1 {
+    float: left;
+    width: 100px;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 800px) {
+  /* line 32, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
+  .kunderI .mid-container {
+    width: 800px;
+    height: 600px;
+    margin-left: 20em;
+    grid-gap: 6rem;
+    align-content: center;
+    margin-top: 2em;
+    margin-left: 4em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 2em;
+    grid-gap: 2rem;
+  }
+}
+
+@media (min-width: 800px) {
+  /* line 53, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
+  .kunderI .mid-container .kunderimage {
+    float: left;
+    width: 100px;
+    padding: 10px;
+    margin: 50px;
+  }
+}
+
+@media (min-width: 560px) {
+  /* line 65, C:/Users/Ikram/Desktop/wfs/scss/_mediaq.scss */
+  .contact .containerContact {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}
+
+/* line 2, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 6em;
+  width: 100%;
+  background-color: #dbecf0;
+  margin-bottom: 0.3em;
+}
+
+/* line 10, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+.header .logo {
+  float: left;
+}
+
+/* line 13, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+.header-hamburger {
+  float: right;
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin-right: 2em;
+  margin-top: 3em;
+  opacity: 1;
+  align-self: flex-end;
+}
+
+/* line 22, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+.header-hamburger:hover {
+  cursor: pointer;
+}
+
+/* line 25, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+.header-hamburger img {
+  width: 2em;
+  height: 2em;
+}
+
+/* line 30, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+.header .talande {
+  display: flex;
+  margin-left: 1em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 35, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+.header .talande .talande-webb {
+  float: left;
+}
+
+/* line 38, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+.header .talande p {
+  padding: .2em;
+  font-size: 1.2em;
+}
+
+/* line 44, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+.displayNone {
+  display: none;
+}
+
+/* line 47, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+.nav-res {
+  display: block;
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+
+/* line 52, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+.nav-res ul {
+  width: 100vw;
+}
+
+/* line 54, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+.nav-res ul li {
+  margin-left: -2em;
+  /* margin-right: 3em;
+            margin-top: 1em; 
+            margin-bottom:1em; */
+  margin-bottom: .3em;
+  text-align: center;
+  list-style-type: none;
+  padding: .7em;
+}
+
+/* line 64, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+.nav-res ul li:active {
+  background-color: #00317f;
+}
+
+/* line 67, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+.nav-res ul li a {
+  /*  width: 100vw;*/
+  padding: 1em 13em;
+  margin-left: -4em;
+  color: white;
+  font-size: .8em;
+  text-decoration: none;
+  background-color: #0044b2;
+}
+
+@media (min-width: 768px) {
+  /* line 79, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+  .header {
+    height: 7em;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 58, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  .nav-res ul {
+    width: 100vw;
+  }
+  /* line 60, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  .nav-res ul li {
+    margin-left: -2em;
+    margin-right: 3em;
+    margin-top: 1.3em;
+    margin-bottom: 1em;
+    margin-bottom: .3em;
+    text-align: center;
+    list-style-type: none;
+    padding: .7em;
+  }
+  /* line 70, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  .nav-res ul li:active {
+    background-color: #00317f;
+  }
+  /* line 73, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  .nav-res ul li a {
+    /*  width: 100vw;*/
+    padding: 1em 20em;
+    margin-left: -4em;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #0044b2;
+  }
+}
+
+@media (min-width: 904px) {
+  /* line 89, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+  #hamburger, #nav-res {
+    display: none;
+  }
+}
+
+@media (min-width: 904px) {
+  /* line 94, C:/Users/Ikram/Desktop/wfs/scss/_nav.scss */
+  #nav-des {
+    display: block;
+    float: right;
+    align-self: flex-end;
+    margin-top: 1.5em;
+    display: block;
+  }
+  /* line 28, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  #nav-des ul {
+    margin-bottom: 0;
+    margin-top: -.5em;
+  }
+  /* line 31, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  #nav-des ul li {
+    background-color: #0044b2;
+    padding: .5em 1.2em;
+    margin-left: .1em;
+    display: inline-block;
+  }
+  /* line 36, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  #nav-des ul li:active {
+    background-color: #00317f;
+  }
+  /* line 39, C:/Users/Ikram/Desktop/wfs/scss/_variablerAndFunctions.scss */
+  #nav-des ul li a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+  }
+}
+
+/* line 2, C:/Users/Ikram/Desktop/wfs/scss/_footer.scss */
+footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: .1em;
+  background-color: #dbecf0;
+  font-size: .8em;
+  padding: 2em;
+}
+
+/* line 10, C:/Users/Ikram/Desktop/wfs/scss/_footer.scss */
+footer p {
+  margin-right: 2em;
+  float: left;
+}
+
+/* line 14, C:/Users/Ikram/Desktop/wfs/scss/_footer.scss */
+footer img {
+  float: right;
+  height: 4em;
+  width: 4em;
+}
+
+/* line 19, C:/Users/Ikram/Desktop/wfs/scss/_footer.scss */
+footer .clearfix {
+  clear: both;
+}
+
+/* line 2, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 4, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
+body h2, html h2 {
+  text-align: center;
+}
+
+/* line 7, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
+body .om_oss, html .om_oss {
+  height: 100%;
+}
+
+/* line 9, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
+body .om_oss .parallax_om, html .om_oss .parallax_om {
+  background-image: url("../image/bulding.jpg");
+  background-position: center;
+  height: 50%;
+  margin: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 630px) {
+  /* line 16, C:/Users/Ikram/Desktop/wfs/scss/_omoss.scss */
+  .poss {
+    padding: 60px 40px;
+  }
+}
+
+/* line 2, C:/Users/Ikram/Desktop/wfs/scss/_tjänster.scss */
+.tjenster {
+  margin-top: 26em;
+  height: 100%;
+}
+
+/* line 5, C:/Users/Ikram/Desktop/wfs/scss/_tjänster.scss */
+.tjenster .parallax {
+  background-image: url("../image/penor.jpg");
+  height: 50%;
+  margin: 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 1, C:/Users/Ikram/Desktop/wfs/scss/_kontakt_ie8.scss */
+.contact {
+  background-color: #C2E4FE;
+}
+
+/* line 3, C:/Users/Ikram/Desktop/wfs/scss/_kontakt_ie8.scss */
+.contact .header-kontakt {
+  padding: 1em;
+}
+
+/* line 6, C:/Users/Ikram/Desktop/wfs/scss/_kontakt_ie8.scss */
+.contact .containerContact {
+  height: 40em;
+  max-width: 50em;
+}
+
+/* line 9, C:/Users/Ikram/Desktop/wfs/scss/_kontakt_ie8.scss */
+.contact .containerContact .formu {
+  float: left;
+  margin: 4em;
+}
+
+/* line 12, C:/Users/Ikram/Desktop/wfs/scss/_kontakt_ie8.scss */
+.contact .containerContact .formu textarea {
+  width: 10em;
+  height: 7em;
+  border: solid 1px black;
+}
+
+/* line 17, C:/Users/Ikram/Desktop/wfs/scss/_kontakt_ie8.scss */
+.contact .containerContact .formu input {
+  border: solid 1px black;
+}
+
+/* line 20, C:/Users/Ikram/Desktop/wfs/scss/_kontakt_ie8.scss */
+.contact .containerContact .formu label {
+  width: 10em;
+  margin-right: 1em;
+}
+
+/* line 25, C:/Users/Ikram/Desktop/wfs/scss/_kontakt_ie8.scss */
+.contact .containerContact .kontakt-image1 {
+  margin: 2em;
+}
+
+/* line 27, C:/Users/Ikram/Desktop/wfs/scss/_kontakt_ie8.scss */
+.contact .containerContact .kontakt-image1 .kontakt-image {
+  width: 250px;
+  height: 250px;
+}
+
+/* line 1, C:/Users/Ikram/Desktop/wfs/scss/_kunder_ie8.scss */
+.kunderI {
+  margin-top: 29em;
+}
+
+/* line 3, C:/Users/Ikram/Desktop/wfs/scss/_kunder_ie8.scss */
+.kunderI .text-kunder {
+  text-align: center;
+  font-size: 1.1em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 2em;
+}
+
+/* line 9, C:/Users/Ikram/Desktop/wfs/scss/_kunder_ie8.scss */
+.kunderI .mid-container {
+  height: 42em;
+  max-width: 60em;
+  margin: 1em;
+  padding: 4em;
+}
+
+/* line 14, C:/Users/Ikram/Desktop/wfs/scss/_kunder_ie8.scss */
+.kunderI .mid-container .kunderimage {
+  float: left;
+  margin-right: 12em;
+  margin-top: 2em;
+  width: 60px;
+  height: auto;
+  padding-top: 1rem;
+}
+
+/* line 24, C:/Users/Ikram/Desktop/wfs/scss/_kunder_ie8.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 28, C:/Users/Ikram/Desktop/wfs/scss/_kunder_ie8.scss */
+body .tjenster {
+  margin-top: 25.5em;
+}
+
+/*# sourceMappingURL=../css/ie8.map */
