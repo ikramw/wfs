@@ -1,6 +1,9 @@
 # wfs
 
-Krav
+
+
+KRAV
+
 
 Sidan är responsiv och är uppbyggd utifrån tankesättet: Mobile First. Detta går att bekräfta via sättet ni har skrivit era media queries och hur ni har strukturerat ert innehåll.
 
@@ -31,7 +34,11 @@ Sidan fungerar väl på på både Android (Android Browser, Chrome for Android) 
 Sidan ska vara upplagd live via GitHub Pages
 
 
-Beskrivning
+
+
+BESKRIVNING
+
+
 
 Detta är ett grupprojekt och vi som grupp har valt att arbeta är att vi har använt oss utav Trello.
 vi har haft en daglig kontakt via Slack eller träffats i skolan. 
